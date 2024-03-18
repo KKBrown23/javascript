@@ -1,0 +1,20 @@
+
+Loop statment
+    1. for
+    2. (startingPoint; endingPoint; step)
+    3. {body}
+
+    When using loops:
+        a. How many reps?
+        b. based on the reps define  (startingPoint; endingPoint; step)
+        c. build the body 
+    EX: 5 reps
+        startingPoint   : 0
+        endingPoint     : 5
+        step            : +1
+
+        0,1,2,3,4  => 5 reps
+    
+    What to include inside the body?
+        console.log("Hello World");
+

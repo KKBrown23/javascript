@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #01e9db;
+  min-height: 100vh;
+  padding: 2em;
+}
+
+.main-title {
+  border: 2px solid yellow;
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #01344f;
+  font-size: 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+  letter-spacing: 1rem;
+}
+
+.question-mark {
+  position: absolute;
+  font-size: 20rem;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 0;
+}
+
+.question {
+  color: #01344f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin: 0.5em 0;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.answers {
+  border: 2px solid yellow;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.answer {
+  border: 2px solid white;
+  padding: 0.5em;
+  width: 40%;
+  margin: 0.25em;
+  font-size: 1.5rem;
+  background-color: #01e9db;
+  transform: skew(-20deg);
+}
+.pop-up-bg {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.pop-up {
+  width: 40%;
+  height: 40%;
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  padding: 0.5em 0.75em;
+  border: none;
+  background-color: #01344f;
+  color: white;
+  border-radius: 50%;
+}
+
+/* 
+HW: 1 learn about SVG
+    2 search online and generate and SVG
+    3 add the SVG to the pop-up
+    4. postion the svg as absolute
+    5. place it into the top left corner
+    6. put it into the bg using z-index
+ */
+
+svg {
+  position: absolute;
+  left: -150px;
+  top: -250px;
+  z-index: 0;
+}
+.pop-title,
+.score {
+  z-index: 1;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.score {
+  font-size: 3.5rem;
+  margin-top: 0.25em;
+}

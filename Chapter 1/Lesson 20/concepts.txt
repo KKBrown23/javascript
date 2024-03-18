@@ -1,0 +1,31 @@
+OBJECTS
+    What?   Object are variable that can store many values
+    Why?    We use object to store many properties for 1 thing
+            EX: Car -> numberOfWheels, numberOfSeats, engineType, color, model
+    How?
+            Objects contain fields
+            A field is made of [a name + a value]
+            Declaration:
+                let array = []
+                let array = [2,20,-10]
+
+                let object = {}     //declaring an empty object
+                let object = {
+                    color : "red",
+                    numberOfWheels : 4,
+                    isRunning: true
+                }
+            Reading a value
+                object.color -> "red"
+            Adding a field to the object
+                let object = {}
+                object.color = "red"
+                object.model = "Tesla"
+            
+            Remove a field from the object
+                delete object.color
+
+
+
+
+                

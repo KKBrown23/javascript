@@ -1,0 +1,14 @@
+1. Selecting in CSS
+    a. tag`s name
+    b. class
+    c. by id
+
+2. Selecting in JS
+    a. document.querySelector("")    -> returns only 1 element
+    b. document.querySelectorAll("") -> return a list of elements
+
+3. Changing the HTML
+    a. the text of the element -> h1Element.innerText = "Changed..."
+
+4. Changing the CSS
+    a. element.style

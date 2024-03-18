@@ -1,0 +1,32 @@
+1. Animation is the Transition from 1 style/s to another style/s
+EX:     backgorund-color : white;    ->  backgorund-color : black;
+
+2. Defining an Animation
+    a. identify the states that the animation goes through
+        EX: moveRight
+                -> transform:translate(0)   -> transform:translateX(100px)
+
+    b. define  the animation by the keyframes based on the identified states (at .css)
+
+        @keyframes moveRight{
+            from{
+                transform:translate(0);
+            }
+
+            to{
+                transform:translate(100px);
+            }
+        }
+
+    c. add the animation(together with the animation properties) to the HTML element
+        .myElement{
+            animation-name: moveRight;
+            animation-duration: 1s;
+        }
+
+    Careful:: if the animation has a delay 
+        c1. add the style of the initial state to the element
+        c2. add animation-fill-mode: forwards;
+
+HW:        
+        https://www.youtube.com/watch?v=SgmNxE9lWcY&t=1135s

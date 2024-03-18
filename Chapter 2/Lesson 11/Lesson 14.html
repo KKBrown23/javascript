@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://127.0.0.1:5500/Chapter%202/Lesson%2014/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14</title>
+  <link rel="stylesheet" href="./Lesson 14_files/style.css"></head>
+  <body>
+    <div class="main-page">
+      <div class="nav-bar">
+        <img class="avatar" src="./Lesson 14_files/avatar.jpg" alt="">
+        <button class="contact">CONTACT ME</button>
+      </div>
+      <div class="title-area">
+        <h1 class="title">Hello ✋</h1>
+        <p class="bio">
+          I'm <span class="span-1">Tim</span>,
+          <span class="span-2">a full-stack developer</span> based in the United
+          States.
+        </p>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio-navbar">
+          <a class="portfolio-link active" href="http://127.0.0.1:5500/Chapter%202/Lesson%2014/index.html">My Work</a>
+          <div>
+            <a class="portfolio-link" href="http://127.0.0.1:5500/Chapter%202/Lesson%2014/index.html">ALL</a>
+            <a class="portfolio-link" href="http://127.0.0.1:5500/Chapter%202/Lesson%2014/index.html">FRONT END</a>
+            <a class="portfolio-link" href="http://127.0.0.1:5500/Chapter%202/Lesson%2014/index.html">BACK END</a>
+            <a class="portfolio-link" href="http://127.0.0.1:5500/Chapter%202/Lesson%2014/index.html">FULL STACK</a>
+          </div>
+        </div>
+
+        <div class="portfolio-img">
+          <div class="column">
+            <img class="w-100 h-50" src="./Lesson 14_files/image1.jpg" alt="">
+            <img class="w-100 h-25" src="./Lesson 14_files/image2.jpg" alt="">
+          </div>
+          <div class="column">
+            <img class="w-100 h-25" src="./Lesson 14_files/image3.jpg" alt="">
+            <img class="w-100 h-50" src="./Lesson 14_files/image4.jpg" alt="">
+          </div>
+          <div class="column">
+            <img class="w-100 h-50" src="./Lesson 14_files/image5.jpg" alt="">
+            <img class="w-100 h-25" src="./Lesson 14_files/image6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Lesson 14_files/script.js.download"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

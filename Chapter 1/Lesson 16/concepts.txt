@@ -1,0 +1,38 @@
+Functions
+    EX: prompt()    -> taking input
+        log()       -> display vaules to the console
+        random()    -> generate a random number 0-1
+
+    What?   
+            Functions are small programs that help to:
+                a. divide the program into smaller programs
+                b. reduce the code length
+                c. make the code more readable
+    Why?
+            Write once, use twice
+            [you can write a function one time and use it as many times as you needs it] 
+    How?
+            1. Defining a function using 4 parts        [Build ONCE]
+
+                    a. function         (keyword)
+                    b. name of function (it needs to start with a verb)
+                    c. parameter part       (what does the function need to know before it starts)
+                    d. body             (this is the calculation part)
+
+                    e. return           (this is the "output" part)
+
+                    EX: function addTwoNumbers(number1, number2){
+                            let sum;
+                            sum = number1 + number2;
+                            return sum;
+                    }
+            
+            2. Calling a function using 2 parts         [Using TWICE]
+
+                    b. name of function
+                    c. parameter part
+
+                    let sum1 = addTwoNumbers(34,3);
+                    let sum2 = addTwoNumbers(334,-1);
+                    let sum3 = addTwoNumbers(4,60);
+                    let sum4 = addTwoNumbers(67,580);

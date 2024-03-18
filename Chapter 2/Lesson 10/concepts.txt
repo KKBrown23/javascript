@@ -1,0 +1,18 @@
+What we learnt:
+1. how to take input from a user
+    a. Declare an input element at HTML 
+    b. Select this element at JS
+    c. Register a listener to this element
+    d. Take the value at the handler using inputElement.value
+
+2. Changing the text of an HTML element.
+    a. Select the Element.
+    b. Change the text using Element.innerText.
+
+3. Calling a function every X seconds. 
+    a. Use setInterval to repeat a function every X seconds.
+        e.g setInterval(myFunction, 1000).
+        The set interval function takes two arguments, the function that we want to run and the time in miliseconds.
+
+4. We keep a variable called "state" to keep track of things that change (e.g the points, time, highscore etc.)
+    Everytime the state variable changes we have to show it to the user by changing the html element.

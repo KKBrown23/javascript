@@ -1,0 +1,22 @@
+Data types
+            "KK"    -> text/string
+             11     -> number
+
+        "6"
+
+Checking the data type
+
+            let username = "KK"
+            let usernameType = typeof username;
+
+Operators:
+    Math:    + , - , *, / , % 
+
+    +           -> number + number => sum
+                        12 + 10 => 22
+
+                -> string + string => merge
+                        "KK" + "Brown" => "KKBrown"
+
+                -> string + number -> merge
+                        "1" + 10 => "110"

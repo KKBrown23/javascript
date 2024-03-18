@@ -1,0 +1,32 @@
+Javascript is a programming language
+Javascript is used to change the HTML and CSS
+
+Javascript is write in a file called "script.js"
+    which is connected to the index.html by the <script> tag
+
+Input and Output
+
+Output:     alert("Hello World");
+            console.log(usernameType);
+
+Input:      prompt("Enter the year you were born: ");
+
+Variable 
+
+    Declaration:        [Borrowing a place in the RAM]
+
+        let yearOfBirth;
+    
+    Storing:            [ = : assign operator]
+
+        yearOfBirth = 2010;
+    
+    Changing value:     [Variables can only store 1 value]
+
+        yearOfBirth = 2020;
+
+Saving input into a Variable
+
+    let yearOfBirth;
+
+    yearOfBirth = prompt("Enter the year you were born: ");

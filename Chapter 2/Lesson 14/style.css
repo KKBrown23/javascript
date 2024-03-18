@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 35px;
+}
+.main-page {
+  color: white;
+  background-color: black;
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  /* border: 2px solid green; */
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation-name: bringDown;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  transform: translateY(-100px);
+  animation-fill-mode: forwards;
+}
+
+.span-1 {
+  color: yellow;
+}
+
+.contact {
+  border-radius: 20px;
+  padding: 0.5em;
+  font-size: 0.8rem;
+}
+
+.title-area {
+  display: flex;
+  /* border: 2px solid green; */
+  padding: 1.5em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation-name: bringUp;
+  animation-duration: 1.5s;
+}
+
+.title {
+  margin-bottom: 0.5em;
+}
+.bio {
+  font-size: 1.5rem;
+  width: 30%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.span-2 {
+  font-style: italic;
+}
+
+.portfolio {
+  /* border: 2px solid green; */
+  padding: 0.5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(50px) scale(0.7);
+  opacity: 0;
+  animation-name: bringUpZoom;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.portfolio-navbar {
+  /* border: 2px solid yellow; */
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+
+.portfolio-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 0.5em;
+}
+
+.portfolio-img {
+  /* border: 2px solid yellow; */
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-50 {
+  min-height: 50vh;
+}
+
+.h-25 {
+  min-height: 25vh;
+}
+
+.column {
+  width: 31.5%;
+}
+.my-05 {
+  margin: 0.5em 0;
+}
+
+/* HW: Add the animation of the navbar */
+/* Hints: Opacity changes from 0 to 100.
+Positioning (translateY) changes from -100px to 0 */
+
+@keyframes bringDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes bringUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes bringUpZoom {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.7);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0px) scale(1);
+  }
+}

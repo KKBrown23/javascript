@@ -1,0 +1,27 @@
+Events
+    1. A way to take user input
+    
+    2. 3 parts:
+            Target          the HTML element where the event happends       EX: btn, div
+            Event Type                                                      EX: click, keyup, keydown, dlbclick, scroll
+            Event Handler   the name of the function that will              EX: addRedBorder
+                                        run when the event happends
+        
+    3. Add an event listener to the Target
+
+            a. Select the Target
+            b. .addEventListener("typeOFEvent", handler)
+            c. declare the handler function
+    
+    4. Handler Function
+
+            1. It runs everytime the event happends
+            2. It takes as argument the "event" object
+            3. The "event" object contains ALL the information about the event:
+                    target,
+                    the time when the event happend,
+                    the coordinates where the evnet happend
+                
+            function addRedBorder(event){
+                
+            }

@@ -1,0 +1,22 @@
+1. build an html document with 1 div and 5 paragraphs
+2. put a border around the div using JS 
+            select element
+            change styling
+3. change the color of the fist paragraphs   by JS
+4. change the font size of the last paragraph by JS
+5. change the text of the 4th paragraph by JS
+
+1. Selecting in CSS
+    a. tag`s name
+    b. class
+    c. by id
+
+2. Selecting in JS
+    a. document.querySelector("")    -> returns only 1 element
+    b. document.querySelectorAll("") -> return a list of elements
+
+3. Changing the HTML
+    a. the text of the element -> h1Element.innerText = "Changed..."
+
+4. Changing the CSS
+    a. element.style

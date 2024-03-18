@@ -1,0 +1,29 @@
+Reading an object from the user
+    1. Declare an empty object
+    2. Add fields to save the properties of the object
+    EX:
+        let student = {};
+        student.name = prompt("Please enter your name");
+        student.id = prompt("Please enter your id");
+        student.score = +prompt("Please enter your score");
+
+Reading a list object from the user
+    1. Declare an emrpty array
+    2. Read the date for an object(as described above)
+    3. save the object into the array using .push()
+
+Generating Random object
+     1. Declare an empty object
+     2. Generate a random string or number
+     3. Add fields to save the properties of the object
+    EX:
+        let student = {};
+
+        let randomNumber = Math.floor(Math.random() * 10000);
+        student.name = "S"+randomNumber;
+
+        let randomNumberForId = Math.floor(Math.random() * 10000);
+        student.id = "SID" + randomNumberForId;
+
+        let randomNumberForScore = Math.floor(Math.random() * 101);
+        student.score = randomNumberForScore;

@@ -1,0 +1,41 @@
+Operators 
+    1. Math operators: +, -, *, /
+            +=      => increment
+            -=      => decrement
+    2. Comparision operators             [ true / false ]
+        1. >  greater than
+        2. <  less than
+        3. <= less or equal than
+        4. >= greater or equal than
+        5. == is equal
+        6. != is not equal
+
+    3. Logical operators
+        1. &&   AND         will return true if and only if both the conditions are true
+        2. ||   OR          will return true if any of the conditions is true
+
+IF statment
+    1. if
+    2. (condition)
+    3. {body}           ->will be executed if the condition is true
+
+    4. else{}           ->will be executed if the condition is false
+
+Loop statment
+    1. for
+    2. (startingPoint; endingPoint; step)
+    3. {body}
+
+    When using loops:
+        a. How many reps?
+        b. based on the reps define  (startingPoint; endingPoint; step)
+        c. build the body 
+    EX: 5 reps
+        startingPoint   : 0
+        endingPoint     : 5
+        step            : +1
+
+        0,1,2,3,4  => 5 reps
+    
+    What to include inside the body?
+        console.log("Hello World");

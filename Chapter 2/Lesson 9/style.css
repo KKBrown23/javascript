@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.points {
+  font-size: 2rem;
+  position: absolute;
+  top: 20vh;
+  right: 10vw;
+}
+.hiScore {
+  position: absolute;
+  top: 20vh;
+  right: 20vw;
+  font-size: 2rem;
+}
+.hiScoreLabel {
+  position: absolute;
+  top: 20vh;
+  right: 25vw;
+  font-size: 2rem;
+}
+.land {
+  width: 100vw;
+  height: 30vh;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  border-top: 10px solid gray;
+}
+
+.dino {
+  width: 80px;
+  height: 100px;
+  background-color: lightgreen;
+  position: absolute;
+  bottom: 30vh;
+  left: 10vw;
+  transition: transform 1s;
+}
+
+.cactus {
+  width: 50px;
+  height: 100px;
+  background-color: rgb(255, 94, 94);
+  position: absolute;
+  bottom: 30vh;
+  right: 0;
+  animation: moveLeft 8s infinite;
+  animation-timing-function: linear;
+}
+.cactus1 {
+  right: -800px;
+  animation: moveLeft1 13s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translate(100px);
+  }
+  100% {
+    transform: translate(-110vw);
+  }
+}
+
+@keyframes moveLeft1 {
+  0% {
+    transform: translate(800px);
+  }
+  100% {
+    transform: translate(-200vw);
+  }
+}

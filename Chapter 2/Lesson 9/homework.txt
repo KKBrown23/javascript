@@ -1,0 +1,17 @@
+Transition: 3 things I have learned
+1. Transitions should be used when properties are changed interactively.
+2. There are about 7 animation functions.
+3. There are two different ways to move things in CSS. animation & Transition
+
+https://www.youtube.com/watch?v=fYTTUBa-lPc&t=559s - 
+New video for Monday
+
+3 things I've learned.
+1. Local storage stores data in the browser even if the user has closed the page or the whole window
+2. Local storage helps us to see old data.
+3. Different functions in local storage.
+
+try to use the local storage to save the highscore
+
+1. read the highscore from the localstorage at line 12
+2. everytime the highscore changes save the hiscore to the local storage line 52

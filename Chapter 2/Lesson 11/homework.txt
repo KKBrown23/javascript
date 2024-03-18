@@ -1,0 +1,2 @@
+Classwork: Search on the internet on how to stop the search interval in JS.
+Homework: Style the html elements so the clock is in the centre and the numbers are bigger.n   

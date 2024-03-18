@@ -1,0 +1,36 @@
+Arrays
+        What?   Arrays are variables that can store many values
+        Why?    To store a list of values
+        How?
+                Declaration
+                        let studentsList = []   // declaring an empty array
+                        let studentsList= ['KK' , 'Ron', 'Brain']
+
+                Reading/Selecting an element from the array
+                        studentsList[index]
+                Reading all the elements of the list
+                        let index = 0;          //5-1
+                        for (let counter = 0; counter < 5; counter += 1) {
+                                let listElement = userNumbersList[index];
+                                index += 1;             //-= 1
+                        }
+
+                Adding elements
+                        studentsList.push(newElement)
+                
+                Removing an element at the end
+                        studentsList.pop()
+
+                Remove element by index
+                        studentsList.splice(index, 1)
+                        CAREFUL: use "continue" after splice() to skip the index incrementaion
+                                        because the indexes are shifted when the lement is removed
+
+        Taking multiple inputs from the user EX 5 names
+
+        let studentsList = [];
+        for(let counter = 0; counter < 5; counter +=1){
+                let username = prompt("Enter your name");
+                studentsList.push(username)
+        }
+

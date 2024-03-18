@@ -1,0 +1,9 @@
+Homework
+https://www.youtube.com/watch?v=rzD-cPhq02E
+Write down 5 new things you learned
+
+1. You can use the transform object to move and scale an object.
+2. There are 5 different versions of the functions under transform.
+3. You can use .(turn) to fully rotate an object.
+4. You can use translate to move an object back, forward, left and right.
+5. You can combine transforms.

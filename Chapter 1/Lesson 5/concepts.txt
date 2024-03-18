@@ -1,0 +1,13 @@
+Operators 
+    1. Math operators: +, -, *, /
+    2. Comparision operators             [ true / false ]
+        1. >  greater than
+        2. <  less than
+        3. <= less or equal than
+        4. >= greater or equal than
+        5. == is equal
+        6. != is not equal
+
+    3. Logical operators
+        1. &&   AND         will return true if and only if both the conditions are true
+        2. ||   OR          will return true if any of the conditions is true

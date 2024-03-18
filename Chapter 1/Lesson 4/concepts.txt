@@ -1,0 +1,9 @@
+Converting
+    string -> number    +"23" -> 23  
+    number - > string   23 + "" -> "23"
+
+Taking input from the user and Saving it into a Variable
+
+    let yearOfBirth;
+
+    yearOfBirth = prompt("Enter the year you were born: ");

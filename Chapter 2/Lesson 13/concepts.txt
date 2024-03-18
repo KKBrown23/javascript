@@ -1,0 +1,14 @@
+Get the scree width from window element
+    window.innerWidth, window.innerHeight
+
+How to repeate a function evey x secods
+    setInterval(myFunction, 1000);
+
+How to stop setInterval()
+    1. when you call setInterval it will return an id
+    2. save this id into an array[declared at the top of the js file]
+    3. when you want to stop the setInterval -> call clearInterval(intervalID);
+
+Make an HTML element follow the movement of the mouse
+
+

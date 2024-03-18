@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.8em;
+}
+
+.main-page {
+  border: 3px solid red;
+  background-color: blanchedalmond;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  padding: 3em 5em;
+  margin: 1.5em;
+  background-color: rgb(5, 66, 119);
+  color: white;
+  transition: transform 1s;
+}
+
+.content-1 {
+  transform: translate(100vw);
+}
+
+.content-2 {
+  transform: translate(-100vw);
+}
+
+.move-start {
+  transform: translate(0);
+}

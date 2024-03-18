@@ -1,0 +1,23 @@
+
+Loop for an unknown number of times (Flag loops)
+while(condition){
+
+}
+
+
+
+Generating Random numbers 
+    let randomNumber = Math.random() * 100;       // generates a number from 0 to 99  
+    randomNumber = Math.floor(randomNumber);        //gets the decimal part away
+
+
+
+
+
+
+
+
+
+
+
+
